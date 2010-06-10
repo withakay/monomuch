@@ -7,7 +7,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -24,9 +24,21 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = Monomuch;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fstat = 1;
+			$ftag = 1;
+		};
 	};
 	04BDE8D311BE92CA00A6027B /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -76,7 +88,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 67";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 771;
 		vrLoc = 1024;
@@ -1298,7 +1310,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
 		name = "MonomuchViewController.h: 24";
 		rLen = 0;
-		rLoc = 1494;
+		rLoc = 1654;
 		rType = 0;
 		vrLen = 615;
 		vrLoc = 0;
@@ -1339,7 +1351,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 43;
+		rLoc = 46;
 		rType = 1;
 	};
 	04BDEA6611BF027E00A6027B /* PBXTextBookmark */ = {
@@ -1763,7 +1775,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
 		name = "MonomuchViewController.h: 31";
 		rLen = 0;
-		rLoc = 1530;
+		rLoc = 1690;
 		rType = 0;
 		vrLen = 714;
 		vrLoc = 0;
@@ -1783,7 +1795,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
 		name = "MonomuchViewController.h: 31";
 		rLen = 0;
-		rLoc = 1530;
+		rLoc = 1690;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 156;
@@ -1793,7 +1805,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
 		name = "MonomuchViewController.h: 31";
 		rLen = 0;
-		rLoc = 1530;
+		rLoc = 1690;
 		rType = 0;
 		vrLen = 714;
 		vrLoc = 0;
@@ -1842,7 +1854,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
 		name = "MonomuchViewController.h: 31";
 		rLen = 0;
-		rLoc = 1530;
+		rLoc = 1690;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 156;
@@ -2002,7 +2014,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 124";
 		rLen = 0;
-		rLoc = 9038;
+		rLoc = 10042;
 		rType = 0;
 		vrLen = 2025;
 		vrLoc = 1795;
@@ -2012,7 +2024,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 124";
 		rLen = 0;
-		rLoc = 9038;
+		rLoc = 10042;
 		rType = 0;
 		vrLen = 2064;
 		vrLoc = 1795;
@@ -2032,7 +2044,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 127";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2095;
 		vrLoc = 1795;
@@ -2042,7 +2054,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 125";
 		rLen = 0;
-		rLoc = 9038;
+		rLoc = 10042;
 		rType = 0;
 		vrLen = 2013;
 		vrLoc = 1925;
@@ -2072,7 +2084,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 127";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2010;
 		vrLoc = 1925;
@@ -2082,7 +2094,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 127";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2010;
 		vrLoc = 1925;
@@ -2092,7 +2104,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 127";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2010;
 		vrLoc = 1925;
@@ -2102,7 +2114,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 127";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2159;
 		vrLoc = 1798;
@@ -2112,7 +2124,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 127";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2159;
 		vrLoc = 1798;
@@ -2122,7 +2134,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 128";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2332;
 		vrLoc = 1798;
@@ -2132,7 +2144,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 128";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2329;
 		vrLoc = 1798;
@@ -2142,7 +2154,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 128";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2244;
 		vrLoc = 1798;
@@ -2152,7 +2164,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2290;
 		vrLoc = 1798;
@@ -2162,7 +2174,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2295;
 		vrLoc = 1798;
@@ -2172,7 +2184,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2293;
 		vrLoc = 1798;
@@ -2182,7 +2194,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2294;
 		vrLoc = 1798;
@@ -2192,7 +2204,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2379;
 		vrLoc = 1798;
@@ -2202,7 +2214,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2379;
 		vrLoc = 1798;
@@ -2212,7 +2224,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2001;
 		vrLoc = 1740;
@@ -2222,7 +2234,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2391;
 		vrLoc = 1798;
@@ -2232,7 +2244,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2481;
 		vrLoc = 1798;
@@ -2242,7 +2254,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2338;
 		vrLoc = 1798;
@@ -2252,7 +2264,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2149;
 		vrLoc = 1798;
@@ -2262,7 +2274,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2567;
 		vrLoc = 1798;
@@ -2272,7 +2284,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2572;
 		vrLoc = 1798;
@@ -2282,7 +2294,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 130";
 		rLen = 0;
-		rLoc = 9041;
+		rLoc = 10045;
 		rType = 0;
 		vrLen = 2650;
 		vrLoc = 1798;
@@ -2292,7 +2304,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 128";
 		rLen = 0;
-		rLoc = 9038;
+		rLoc = 10042;
 		rType = 0;
 		vrLen = 1317;
 		vrLoc = 3132;
@@ -2303,7 +2315,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 282;
+		rLoc = 319;
 		rType = 1;
 	};
 	04BDEB2C11BFB1B600A6027B /* PBXTextBookmark */ = {
@@ -2311,7 +2323,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 128";
 		rLen = 0;
-		rLoc = 9038;
+		rLoc = 10042;
 		rType = 0;
 		vrLen = 1723;
 		vrLoc = 2674;
@@ -2321,7 +2333,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 128";
 		rLen = 0;
-		rLoc = 9038;
+		rLoc = 10042;
 		rType = 0;
 		vrLen = 1723;
 		vrLoc = 2674;
@@ -2331,7 +2343,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 128";
 		rLen = 0;
-		rLoc = 9038;
+		rLoc = 10042;
 		rType = 0;
 		vrLen = 1676;
 		vrLoc = 2674;
@@ -2341,7 +2353,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 128";
 		rLen = 0;
-		rLoc = 9038;
+		rLoc = 10042;
 		rType = 0;
 		vrLen = 1363;
 		vrLoc = 2697;
@@ -2351,7 +2363,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 128";
 		rLen = 0;
-		rLoc = 9038;
+		rLoc = 10042;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 3132;
@@ -2362,7 +2374,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 218;
+		rLoc = 255;
 		rType = 1;
 	};
 	04BDEB3B11BFC4A800A6027B /* PBXTextBookmark */ = {
@@ -2370,7 +2382,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 128";
 		rLen = 0;
-		rLoc = 6788;
+		rLoc = 7586;
 		rType = 0;
 		vrLen = 1832;
 		vrLoc = 2692;
@@ -2380,7 +2392,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 128";
 		rLen = 0;
-		rLoc = 6788;
+		rLoc = 7586;
 		rType = 0;
 		vrLen = 1832;
 		vrLoc = 2692;
@@ -2390,7 +2402,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 128";
 		rLen = 0;
-		rLoc = 6788;
+		rLoc = 7586;
 		rType = 0;
 		vrLen = 1832;
 		vrLoc = 2692;
@@ -2400,7 +2412,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 128";
 		rLen = 0;
-		rLoc = 6788;
+		rLoc = 7586;
 		rType = 0;
 		vrLen = 1831;
 		vrLoc = 2692;
@@ -2410,7 +2422,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 127";
 		rLen = 2;
-		rLoc = 6738;
+		rLoc = 7536;
 		rType = 0;
 		vrLen = 994;
 		vrLoc = 3134;
@@ -2420,7 +2432,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 127";
 		rLen = 2;
-		rLoc = 6738;
+		rLoc = 7536;
 		rType = 0;
 		vrLen = 2013;
 		vrLoc = 0;
@@ -2430,7 +2442,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
 		name = "MonomuchViewController.h: 31";
 		rLen = 0;
-		rLoc = 1530;
+		rLoc = 1690;
 		rType = 0;
 		vrLen = 714;
 		vrLoc = 0;
@@ -2898,7 +2910,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
 		name = "MonomuchViewController.h: 32";
 		rLen = 0;
-		rLoc = 1523;
+		rLoc = 1683;
 		rType = 0;
 		vrLen = 912;
 		vrLoc = 153;
@@ -3418,7 +3430,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
 		name = "MonomuchViewController.h: 36";
 		rLen = 0;
-		rLoc = 1521;
+		rLoc = 1681;
 		rType = 0;
 		vrLen = 1228;
 		vrLoc = 0;
@@ -3458,7 +3470,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 205;
+		rLoc = 241;
 		rType = 1;
 	};
 	04BDEC1F11C0025C00A6027B /* PBXTextBookmark */ = {
@@ -3466,7 +3478,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 143";
 		rLen = 0;
-		rLoc = 6074;
+		rLoc = 6718;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 3918;
@@ -3495,7 +3507,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 143";
 		rLen = 0;
-		rLoc = 6074;
+		rLoc = 6718;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 3918;
@@ -3505,7 +3517,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 143";
 		rLen = 0;
-		rLoc = 6074;
+		rLoc = 6718;
 		rType = 0;
 		vrLen = 1521;
 		vrLoc = 3918;
@@ -3525,7 +3537,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 143";
 		rLen = 0;
-		rLoc = 6074;
+		rLoc = 6718;
 		rType = 0;
 		vrLen = 700;
 		vrLoc = 3918;
@@ -3535,7 +3547,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 143";
 		rLen = 0;
-		rLoc = 6074;
+		rLoc = 6718;
 		rType = 0;
 		vrLen = 1482;
 		vrLoc = 4034;
@@ -3545,7 +3557,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 143";
 		rLen = 0;
-		rLoc = 6074;
+		rLoc = 6718;
 		rType = 0;
 		vrLen = 1610;
 		vrLoc = 3896;
@@ -3565,7 +3577,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 173";
 		rLen = 0;
-		rLoc = 7244;
+		rLoc = 8042;
 		rType = 0;
 		vrLen = 961;
 		vrLoc = 4789;
@@ -3575,7 +3587,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
 		name = "MonomuchViewController.h: 35";
 		rLen = 0;
-		rLoc = 1494;
+		rLoc = 1654;
 		rType = 0;
 		vrLen = 1283;
 		vrLoc = 0;
@@ -3585,7 +3597,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 173";
 		rLen = 0;
-		rLoc = 7244;
+		rLoc = 8042;
 		rType = 0;
 		vrLen = 2074;
 		vrLoc = 3676;
@@ -3595,7 +3607,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 173";
 		rLen = 0;
-		rLoc = 7244;
+		rLoc = 8042;
 		rType = 0;
 		vrLen = 2101;
 		vrLoc = 3649;
@@ -3615,7 +3627,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 173";
 		rLen = 0;
-		rLoc = 7244;
+		rLoc = 8042;
 		rType = 0;
 		vrLen = 2101;
 		vrLoc = 3649;
@@ -3625,7 +3637,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 173";
 		rLen = 0;
-		rLoc = 7244;
+		rLoc = 8042;
 		rType = 0;
 		vrLen = 961;
 		vrLoc = 4789;
@@ -3635,7 +3647,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 173";
 		rLen = 0;
-		rLoc = 7244;
+		rLoc = 8042;
 		rType = 0;
 		vrLen = 2074;
 		vrLoc = 3676;
@@ -3655,7 +3667,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 173";
 		rLen = 0;
-		rLoc = 7244;
+		rLoc = 8042;
 		rType = 0;
 		vrLen = 2074;
 		vrLoc = 3676;
@@ -3665,7 +3677,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 173";
 		rLen = 0;
-		rLoc = 7244;
+		rLoc = 8042;
 		rType = 0;
 		vrLen = 2074;
 		vrLoc = 3676;
@@ -3685,7 +3697,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 173";
 		rLen = 0;
-		rLoc = 7244;
+		rLoc = 8042;
 		rType = 0;
 		vrLen = 2103;
 		vrLoc = 3649;
@@ -3715,7 +3727,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 177";
 		rLen = 0;
-		rLoc = 9042;
+		rLoc = 10046;
 		rType = 0;
 		vrLen = 926;
 		vrLoc = 4826;
@@ -3725,7 +3737,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 177";
 		rLen = 0;
-		rLoc = 9042;
+		rLoc = 10046;
 		rType = 0;
 		vrLen = 926;
 		vrLoc = 4826;
@@ -3735,7 +3747,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 177";
 		rLen = 0;
-		rLoc = 9042;
+		rLoc = 10046;
 		rType = 0;
 		vrLen = 2076;
 		vrLoc = 3676;
@@ -3745,7 +3757,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 177";
 		rLen = 0;
-		rLoc = 9042;
+		rLoc = 10046;
 		rType = 0;
 		vrLen = 2076;
 		vrLoc = 3676;
@@ -3765,7 +3777,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 177";
 		rLen = 0;
-		rLoc = 9042;
+		rLoc = 10046;
 		rType = 0;
 		vrLen = 2119;
 		vrLoc = 3625;
@@ -3785,7 +3797,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 177";
 		rLen = 0;
-		rLoc = 9042;
+		rLoc = 10046;
 		rType = 0;
 		vrLen = 2112;
 		vrLoc = 3625;
@@ -3795,7 +3807,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 177";
 		rLen = 0;
-		rLoc = 9042;
+		rLoc = 10046;
 		rType = 0;
 		vrLen = 2184;
 		vrLoc = 3544;
@@ -3805,7 +3817,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 177";
 		rLen = 0;
-		rLoc = 9042;
+		rLoc = 10046;
 		rType = 0;
 		vrLen = 2177;
 		vrLoc = 3544;
@@ -3815,7 +3827,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 177";
 		rLen = 0;
-		rLoc = 9042;
+		rLoc = 10046;
 		rType = 0;
 		vrLen = 2199;
 		vrLoc = 3543;
@@ -3825,7 +3837,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 177";
 		rLen = 0;
-		rLoc = 9042;
+		rLoc = 10046;
 		rType = 0;
 		vrLen = 2174;
 		vrLoc = 3541;
@@ -3835,7 +3847,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 177";
 		rLen = 0;
-		rLoc = 9042;
+		rLoc = 10046;
 		rType = 0;
 		vrLen = 2139;
 		vrLoc = 3379;
@@ -3845,7 +3857,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 177";
 		rLen = 0;
-		rLoc = 9042;
+		rLoc = 10046;
 		rType = 0;
 		vrLen = 2139;
 		vrLoc = 3317;
@@ -3855,7 +3867,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 177";
 		rLen = 0;
-		rLoc = 9042;
+		rLoc = 10046;
 		rType = 0;
 		vrLen = 2139;
 		vrLoc = 3317;
@@ -3865,7 +3877,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 170";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 925;
 		vrLoc = 4826;
@@ -3875,7 +3887,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 170";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2052;
 		vrLoc = 3676;
@@ -3885,7 +3897,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 170";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2086;
 		vrLoc = 3649;
@@ -3895,7 +3907,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 170";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2086;
 		vrLoc = 3649;
@@ -3905,7 +3917,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 170";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2085;
 		vrLoc = 3649;
@@ -3915,7 +3927,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 170";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2084;
 		vrLoc = 3649;
@@ -3925,7 +3937,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 170";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2093;
 		vrLoc = 3649;
@@ -3935,7 +3947,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 170";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2109;
 		vrLoc = 3625;
@@ -3945,7 +3957,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 170";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2162;
 		vrLoc = 3625;
@@ -3955,7 +3967,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 170";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2160;
 		vrLoc = 3625;
@@ -3965,7 +3977,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 170";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2174;
 		vrLoc = 3625;
@@ -3975,7 +3987,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 172";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2305;
 		vrLoc = 3625;
@@ -3985,7 +3997,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 172";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2271;
 		vrLoc = 3649;
@@ -3995,7 +4007,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 172";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2170;
 		vrLoc = 3410;
@@ -4005,7 +4017,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 172";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2291;
 		vrLoc = 3649;
@@ -4015,7 +4027,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 172";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2288;
 		vrLoc = 3649;
@@ -4025,7 +4037,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 172";
 		rLen = 0;
-		rLoc = 7037;
+		rLoc = 7835;
 		rType = 0;
 		vrLen = 2288;
 		vrLoc = 3649;
@@ -4035,7 +4047,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 165";
 		rLen = 1;
-		rLoc = 6580;
+		rLoc = 7378;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 4820;
@@ -4046,7 +4058,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 216;
+		rLoc = 253;
 		rType = 1;
 	};
 	04BDEC8E11C0339400A6027B /* PBXTextBookmark */ = {
@@ -4054,7 +4066,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 165";
 		rLen = 0;
-		rLoc = 6571;
+		rLoc = 7369;
 		rType = 0;
 		vrLen = 1561;
 		vrLoc = 4384;
@@ -4064,7 +4076,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 172";
 		rLen = 0;
-		rLoc = 6906;
+		rLoc = 7704;
 		rType = 0;
 		vrLen = 1649;
 		vrLoc = 2564;
@@ -4074,7 +4086,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
 		name = "MonomuchViewController.h: 35";
 		rLen = 0;
-		rLoc = 1494;
+		rLoc = 1654;
 		rType = 0;
 		vrLen = 1283;
 		vrLoc = 0;
@@ -4093,7 +4105,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 172";
 		rLen = 0;
-		rLoc = 6897;
+		rLoc = 7695;
 		rType = 0;
 		vrLen = 1653;
 		vrLoc = 4384;
@@ -4103,7 +4115,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 172";
 		rLen = 0;
-		rLoc = 6897;
+		rLoc = 7695;
 		rType = 0;
 		vrLen = 1653;
 		vrLoc = 4384;
@@ -4113,7 +4125,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 172";
 		rLen = 0;
-		rLoc = 6897;
+		rLoc = 7695;
 		rType = 0;
 		vrLen = 1672;
 		vrLoc = 4360;
@@ -4123,7 +4135,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 171";
 		rLen = 0;
-		rLoc = 6897;
+		rLoc = 7695;
 		rType = 0;
 		vrLen = 1705;
 		vrLoc = 4302;
@@ -4133,7 +4145,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 171";
 		rLen = 0;
-		rLoc = 6897;
+		rLoc = 7695;
 		rType = 0;
 		vrLen = 1705;
 		vrLoc = 4302;
@@ -4143,7 +4155,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 171";
 		rLen = 0;
-		rLoc = 6897;
+		rLoc = 7695;
 		rType = 0;
 		vrLen = 1703;
 		vrLoc = 4302;
@@ -4153,7 +4165,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 181";
 		rLen = 0;
-		rLoc = 7656;
+		rLoc = 8454;
 		rType = 0;
 		vrLen = 1323;
 		vrLoc = 5456;
@@ -4163,7 +4175,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 183";
 		rLen = 0;
-		rLoc = 7856;
+		rLoc = 8654;
 		rType = 0;
 		vrLen = 1953;
 		vrLoc = 4655;
@@ -4173,7 +4185,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 183";
 		rLen = 0;
-		rLoc = 7856;
+		rLoc = 8654;
 		rType = 0;
 		vrLen = 1953;
 		vrLoc = 4655;
@@ -4183,7 +4195,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 183";
 		rLen = 0;
-		rLoc = 7856;
+		rLoc = 8654;
 		rType = 0;
 		vrLen = 1934;
 		vrLoc = 4653;
@@ -4193,7 +4205,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 188";
 		rLen = 0;
-		rLoc = 7856;
+		rLoc = 8654;
 		rType = 0;
 		vrLen = 2217;
 		vrLoc = 4655;
@@ -4203,7 +4215,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 191";
 		rLen = 0;
-		rLoc = 7867;
+		rLoc = 8665;
 		rType = 0;
 		vrLen = 1993;
 		vrLoc = 4681;
@@ -4213,7 +4225,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 200";
 		rLen = 0;
-		rLoc = 7859;
+		rLoc = 8657;
 		rType = 0;
 		vrLen = 1833;
 		vrLoc = 5006;
@@ -4223,7 +4235,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 200";
 		rLen = 0;
-		rLoc = 7859;
+		rLoc = 8657;
 		rType = 0;
 		vrLen = 1874;
 		vrLoc = 4962;
@@ -4253,7 +4265,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 186";
 		rLen = 0;
-		rLoc = 7194;
+		rLoc = 7992;
 		rType = 0;
 		vrLen = 1206;
 		vrLoc = 5423;
@@ -4263,7 +4275,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 186";
 		rLen = 0;
-		rLoc = 7194;
+		rLoc = 7992;
 		rType = 0;
 		vrLen = 1874;
 		vrLoc = 4962;
@@ -4321,7 +4333,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 184";
 		rLen = 0;
-		rLoc = 7090;
+		rLoc = 7888;
 		rType = 0;
 		vrLen = 1690;
 		vrLoc = 5195;
@@ -4529,7 +4541,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 231";
 		rLen = 0;
-		rLoc = 8174;
+		rLoc = 8972;
 		rType = 0;
 		vrLen = 768;
 		vrLoc = 6795;
@@ -4539,7 +4551,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 234";
 		rLen = 0;
-		rLoc = 7811;
+		rLoc = 8609;
 		rType = 0;
 		vrLen = 1693;
 		vrLoc = 6321;
@@ -4559,7 +4571,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 234";
 		rLen = 0;
-		rLoc = 7811;
+		rLoc = 8609;
 		rType = 0;
 		vrLen = 1693;
 		vrLoc = 6321;
@@ -4569,7 +4581,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 234";
 		rLen = 0;
-		rLoc = 7811;
+		rLoc = 8609;
 		rType = 0;
 		vrLen = 1174;
 		vrLoc = 6621;
@@ -4579,7 +4591,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 234";
 		rLen = 0;
-		rLoc = 7811;
+		rLoc = 8609;
 		rType = 0;
 		vrLen = 1693;
 		vrLoc = 6321;
@@ -4599,7 +4611,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 234";
 		rLen = 0;
-		rLoc = 7811;
+		rLoc = 8609;
 		rType = 0;
 		vrLen = 1693;
 		vrLoc = 6321;
@@ -4609,7 +4621,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 234";
 		rLen = 0;
-		rLoc = 7811;
+		rLoc = 8609;
 		rType = 0;
 		vrLen = 1693;
 		vrLoc = 6321;
@@ -4629,7 +4641,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 234";
 		rLen = 0;
-		rLoc = 7811;
+		rLoc = 8609;
 		rType = 0;
 		vrLen = 1174;
 		vrLoc = 6621;
@@ -4639,7 +4651,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 169";
 		rLen = 0;
-		rLoc = 5400;
+		rLoc = 5393;
 		rType = 0;
 		vrLen = 1277;
 		vrLoc = 4759;
@@ -4669,7 +4681,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 169";
 		rLen = 0;
-		rLoc = 5400;
+		rLoc = 5393;
 		rType = 0;
 		vrLen = 1269;
 		vrLoc = 4759;
@@ -4728,7 +4740,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
 		name = "MonomuchViewController.h: 44";
 		rLen = 0;
-		rLoc = 1522;
+		rLoc = 1682;
 		rType = 0;
 		vrLen = 1530;
 		vrLoc = 0;
@@ -4768,10 +4780,876 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
 		name = "MonomuchViewController.m: 281";
 		rLen = 0;
-		rLoc = 9033;
+		rLoc = 10037;
 		rType = 0;
 		vrLen = 1078;
 		vrLoc = 8012;
+	};
+	04BDED3611C05EEE00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
+		name = "MonomuchViewController.h: 43";
+		rLen = 0;
+		rLoc = 1626;
+		rType = 0;
+		vrLen = 1570;
+		vrLoc = 0;
+	};
+	04BDED3711C05EEE00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 281";
+		rLen = 0;
+		rLoc = 9992;
+		rType = 0;
+		vrLen = 1101;
+		vrLoc = 8012;
+	};
+	04BDED3811C05EEE00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 199";
+		rLen = 0;
+		rLoc = 6487;
+		rType = 0;
+		vrLen = 1332;
+		vrLoc = 4785;
+	};
+	04BDED3C11C0CC2A00A6027B /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Redefinition of 'frame'";
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 308;
+		rType = 1;
+	};
+	04BDED3F11C0CCBF00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 197";
+		rLen = 0;
+		rLoc = 6431;
+		rType = 0;
+		vrLen = 1441;
+		vrLoc = 5558;
+	};
+	04BDED4211C0CCBF00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 289";
+		rLen = 0;
+		rLoc = 9939;
+		rType = 0;
+		vrLen = 2930;
+		vrLoc = 6251;
+	};
+	04BDED4311C0CCCB00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 197";
+		rLen = 0;
+		rLoc = 6431;
+		rType = 0;
+		vrLen = 1441;
+		vrLoc = 5558;
+	};
+	04BDED4411C0CCCE00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 197";
+		rLen = 0;
+		rLoc = 6431;
+		rType = 0;
+		vrLen = 1441;
+		vrLoc = 5558;
+	};
+	04BDED4511C0CCCE00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 289";
+		rLen = 0;
+		rLoc = 9939;
+		rType = 0;
+		vrLen = 2930;
+		vrLoc = 6251;
+	};
+	04BDED4611C0CCE600A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 197";
+		rLen = 0;
+		rLoc = 6431;
+		rType = 0;
+		vrLen = 1021;
+		vrLoc = 5978;
+	};
+	04BDED4711C0CCF200A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 197";
+		rLen = 0;
+		rLoc = 6431;
+		rType = 0;
+		vrLen = 1561;
+		vrLoc = 5558;
+	};
+	04BDED4811C0CCF200A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 289";
+		rLen = 0;
+		rLoc = 9939;
+		rType = 0;
+		vrLen = 2935;
+		vrLoc = 6251;
+	};
+	04BDED4911C0CD5800A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 218";
+		rLen = 0;
+		rLoc = 7086;
+		rType = 0;
+		vrLen = 1551;
+		vrLoc = 5558;
+	};
+	04BDED4A11C0CD6900A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 218";
+		rLen = 0;
+		rLoc = 7086;
+		rType = 0;
+		vrLen = 1551;
+		vrLoc = 5558;
+	};
+	04BDED4B11C0CD6900A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 290";
+		rLen = 0;
+		rLoc = 9939;
+		rType = 0;
+		vrLen = 2952;
+		vrLoc = 6251;
+	};
+	04BDED5011C0D08700A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 218";
+		rLen = 0;
+		rLoc = 7086;
+		rType = 0;
+		vrLen = 1495;
+		vrLoc = 5544;
+	};
+	04BDED5111C0D08700A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 290";
+		rLen = 0;
+		rLoc = 9939;
+		rType = 0;
+		vrLen = 2885;
+		vrLoc = 6130;
+	};
+	04BDED5211C0D0BD00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 293";
+		rLen = 0;
+		rLoc = 10043;
+		rType = 0;
+		vrLen = 838;
+		vrLoc = 2101;
+	};
+	04BDED5B11C0D0FD00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 201";
+		rLen = 2;
+		rLoc = 5527;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 4771;
+	};
+	04BDED5C11C0D0FD00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 195";
+		rLen = 0;
+		rLoc = 5810;
+		rType = 0;
+		vrLen = 1509;
+		vrLoc = 4735;
+	};
+	04BDED5D11C0D0FD00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 290";
+		rLen = 0;
+		rLoc = 9939;
+		rType = 0;
+		vrLen = 2885;
+		vrLoc = 6130;
+	};
+	04BDED6311C0D15C00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6902;
+		rType = 0;
+		vrLen = 1640;
+		vrLoc = 4866;
+	};
+	04BDED6411C0D15C00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDED6511C0D15C00A6027B /* OSCMessage.m */;
+		name = "OSCMessage.m: 339";
+		rLen = 0;
+		rLoc = 9961;
+		rType = 0;
+		vrLen = 970;
+		vrLoc = 9310;
+	};
+	04BDED6511C0D15C00A6027B /* OSCMessage.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = OSCMessage.m;
+		path = /Users/jack/Code/music/vvopensource/VVOSC/FrameworkSrc/OSCMessage.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2322, 6412}}";
+			sepNavSelRange = "{9961, 0}";
+			sepNavVisRange = "{9306, 974}";
+		};
+	};
+	04BDED6611C0D15C00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9628D0FF100E8A6700C3944E /* OSCValue.m */;
+		rLen = 0;
+		rLoc = 279;
+		rType = 1;
+	};
+	04BDED6711C0D15C00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDED6811C0D15C00A6027B /* OSCValue.m */;
+		name = "OSCValue.m: 280";
+		rLen = 0;
+		rLoc = 6325;
+		rType = 0;
+		vrLen = 709;
+		vrLoc = 5783;
+	};
+	04BDED6811C0D15C00A6027B /* OSCValue.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = OSCValue.m;
+		path = /Users/jack/Code/music/vvopensource/VVOSC/FrameworkSrc/OSCValue.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1083, 6146}}";
+			sepNavSelRange = "{5833, 0}";
+			sepNavVisRange = "{5709, 732}";
+		};
+	};
+	04BDED6911C0D15C00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6981;
+		rType = 0;
+		vrLen = 2936;
+		vrLoc = 5439;
+	};
+	04BDED6D11C0D1A000A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDED6511C0D15C00A6027B /* OSCMessage.m */;
+		name = "OSCMessage.m: 339";
+		rLen = 0;
+		rLoc = 9961;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 9306;
+	};
+	04BDED6E11C0D1A000A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDED6811C0D15C00A6027B /* OSCValue.m */;
+		name = "OSCValue.m: 249";
+		rLen = 0;
+		rLoc = 5833;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 5709;
+	};
+	04BDED6F11C0D1A000A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6902;
+		rType = 0;
+		vrLen = 1478;
+		vrLoc = 5558;
+	};
+	04BDED7011C0D1A000A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6902;
+		rType = 0;
+		vrLen = 1478;
+		vrLoc = 5558;
+	};
+	04BDED7911C0D20200A6027B /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ')' before ']' token";
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 235;
+		rType = 1;
+	};
+	04BDED7A11C0D20200A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6899;
+		rType = 0;
+		vrLen = 1493;
+		vrLoc = 5599;
+	};
+	04BDED7D11C0D20F00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6899;
+		rType = 0;
+		vrLen = 1493;
+		vrLoc = 5599;
+	};
+	04BDED7E11C0D21C00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6899;
+		rType = 0;
+		vrLen = 936;
+		vrLoc = 5845;
+	};
+	04BDED7F11C0D21C00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDED8011C0D21C00A6027B /* asm objc_msgSend  0x95c7bec0 */;
+		name = "asm objc_msgSend  0x95c7bec0: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1160;
+		vrLoc = 0;
+	};
+	04BDED8011C0D21C00A6027B /* asm objc_msgSend  0x95c7bec0 */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		path = "asm objc_msgSend  0x95c7bec0";
+		sourceTree = "<group>";
+	};
+	04BDED8111C0D21C00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDED8211C0D21C00A6027B /* asm objc_msgSend  0x95c7bec0 */;
+		name = "asm objc_msgSend  0x95c7bec0: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1160;
+		vrLoc = 0;
+	};
+	04BDED8211C0D21C00A6027B /* asm objc_msgSend  0x95c7bec0 */ = {
+		isa = PBXFileReference;
+		path = "asm objc_msgSend  0x95c7bec0";
+		sourceTree = "<group>";
+	};
+	04BDED8311C0D22000A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6899;
+		rType = 0;
+		vrLen = 1493;
+		vrLoc = 5599;
+	};
+	04BDED8611C0D23000A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 210";
+		rLen = 0;
+		rLoc = 6792;
+		rType = 0;
+		vrLen = 1618;
+		vrLoc = 5678;
+	};
+	04BDED8911C0D24400A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 210";
+		rLen = 0;
+		rLoc = 6792;
+		rType = 0;
+		vrLen = 1618;
+		vrLoc = 5678;
+	};
+	04BDED8A11C0D24E00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 210";
+		rLen = 0;
+		rLoc = 6792;
+		rType = 0;
+		vrLen = 699;
+		vrLoc = 5759;
+	};
+	04BDED8B11C0D24E00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDED8C11C0D24E00A6027B /* asm objc_msgSend  0x95c7bec0 */;
+		name = "asm objc_msgSend  0x95c7bec0: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1160;
+		vrLoc = 0;
+	};
+	04BDED8C11C0D24E00A6027B /* asm objc_msgSend  0x95c7bec0 */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		path = "asm objc_msgSend  0x95c7bec0";
+		sourceTree = "<group>";
+	};
+	04BDED8D11C0D24E00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDED8E11C0D24E00A6027B /* asm objc_msgSend  0x95c7bec0 */;
+		name = "asm objc_msgSend  0x95c7bec0: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1160;
+		vrLoc = 0;
+	};
+	04BDED8E11C0D24E00A6027B /* asm objc_msgSend  0x95c7bec0 */ = {
+		isa = PBXFileReference;
+		path = "asm objc_msgSend  0x95c7bec0";
+		sourceTree = "<group>";
+	};
+	04BDED9111C0D6C200A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 203";
+		rLen = 0;
+		rLoc = 6568;
+		rType = 0;
+		vrLen = 1372;
+		vrLoc = 5436;
+	};
+	04BDED9611C0D6F500A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 220";
+		rLen = 0;
+		rLoc = 7086;
+		rType = 0;
+		vrLen = 1377;
+		vrLoc = 5439;
+	};
+	04BDED9911C0D70600A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 213";
+		rLen = 0;
+		rLoc = 6921;
+		rType = 0;
+		vrLen = 1377;
+		vrLoc = 5439;
+	};
+	04BDED9A11C0D71900A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 213";
+		rLen = 0;
+		rLoc = 6921;
+		rType = 0;
+		vrLen = 1377;
+		vrLoc = 5439;
+	};
+	04BDED9B11C0D71D00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 213";
+		rLen = 0;
+		rLoc = 6921;
+		rType = 0;
+		vrLen = 918;
+		vrLoc = 5898;
+	};
+	04BDED9C11C0D71D00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDED9D11C0D71D00A6027B /* asm objc_msgSend  0x95c7bec0 */;
+		name = "asm objc_msgSend  0x95c7bec0: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1160;
+		vrLoc = 0;
+	};
+	04BDED9D11C0D71D00A6027B /* asm objc_msgSend  0x95c7bec0 */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		path = "asm objc_msgSend  0x95c7bec0";
+		sourceTree = "<group>";
+	};
+	04BDED9E11C0D71D00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDED9F11C0D71D00A6027B /* asm objc_msgSend  0x95c7bec0 */;
+		name = "asm objc_msgSend  0x95c7bec0: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1160;
+		vrLoc = 0;
+	};
+	04BDED9F11C0D71D00A6027B /* asm objc_msgSend  0x95c7bec0 */ = {
+		isa = PBXFileReference;
+		path = "asm objc_msgSend  0x95c7bec0";
+		sourceTree = "<group>";
+	};
+	04BDEDA211C0D7E800A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6853;
+		rType = 0;
+		vrLen = 1497;
+		vrLoc = 5544;
+	};
+	04BDEDA411C0D7F600A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6853;
+		rType = 0;
+		vrLen = 1497;
+		vrLoc = 5544;
+	};
+	04BDEDA511C0D7FF00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6853;
+		rType = 0;
+		vrLen = 908;
+		vrLoc = 5845;
+	};
+	04BDEDA811C0D81900A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6846;
+		rType = 0;
+		vrLen = 1549;
+		vrLoc = 5558;
+	};
+	04BDEDA911C0D81900A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6846;
+		rType = 0;
+		vrLen = 1481;
+		vrLoc = 5626;
+	};
+	04BDEDAC11C0D83300A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6846;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 5845;
+	};
+	04BDEDAD11C0D83300A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDEDAE11C0D83300A6027B /* asm objc_msgSend  0x95c7bec0 */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	04BDEDAE11C0D83300A6027B /* asm objc_msgSend  0x95c7bec0 */ = {
+		isa = PBXFileReference;
+		path = "asm objc_msgSend  0x95c7bec0";
+		sourceTree = "<group>";
+	};
+	04BDEDAF11C0D83300A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDEDB011C0D83300A6027B /* asm objc_msgSend  0x95c7bec0 */;
+		name = "asm objc_msgSend  0x95c7bec0: 22";
+		rLen = 0;
+		rLoc = 957;
+		rType = 0;
+		vrLen = 1160;
+		vrLoc = 0;
+	};
+	04BDEDB011C0D83300A6027B /* asm objc_msgSend  0x95c7bec0 */ = {
+		isa = PBXFileReference;
+		path = "asm objc_msgSend  0x95c7bec0";
+		sourceTree = "<group>";
+	};
+	04BDEDB311C0D84700A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6840;
+		rType = 0;
+		vrLen = 1460;
+		vrLoc = 5654;
+	};
+	04BDEDB511C0D85400A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6840;
+		rType = 0;
+		vrLen = 1456;
+		vrLoc = 5654;
+	};
+	04BDEDB611C0D87100A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6840;
+		rType = 0;
+		vrLen = 1456;
+		vrLoc = 5654;
+	};
+	04BDEDB911C0D8F900A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6840;
+		rType = 0;
+		vrLen = 1442;
+		vrLoc = 5759;
+	};
+	04BDEDBD11C0D94400A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 212";
+		rLen = 0;
+		rLoc = 6840;
+		rType = 0;
+		vrLen = 1471;
+		vrLoc = 5825;
+	};
+	04BDEDC011C0D95A00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 214";
+		rLen = 0;
+		rLoc = 6921;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 6002;
+	};
+	04BDEDC111C0D95A00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDEDC211C0D95A00A6027B /* asm objc_msgSend  0x95c7bec0 */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	04BDEDC211C0D95A00A6027B /* asm objc_msgSend  0x95c7bec0 */ = {
+		isa = PBXFileReference;
+		path = "asm objc_msgSend  0x95c7bec0";
+		sourceTree = "<group>";
+	};
+	04BDEDC311C0D95A00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04BDEDC411C0D95A00A6027B /* asm objc_msgSend  0x95c7bec0 */;
+		name = "asm objc_msgSend  0x95c7bec0: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1160;
+		vrLoc = 0;
+	};
+	04BDEDC411C0D95A00A6027B /* asm objc_msgSend  0x95c7bec0 */ = {
+		isa = PBXFileReference;
+		path = "asm objc_msgSend  0x95c7bec0";
+		sourceTree = "<group>";
+	};
+	04BDEDC711C0D99600A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 214";
+		rLen = 0;
+		rLoc = 6921;
+		rType = 0;
+		vrLen = 1502;
+		vrLoc = 5838;
+	};
+	04BDEDC911C0D9A500A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 214";
+		rLen = 0;
+		rLoc = 6921;
+		rType = 0;
+		vrLen = 1502;
+		vrLoc = 5838;
+	};
+	04BDEDCA11C0D9B000A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 214";
+		rLen = 0;
+		rLoc = 6921;
+		rType = 0;
+		vrLen = 1502;
+		vrLoc = 5838;
+	};
+	04BDEDCB11C0DA3E00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 214";
+		rLen = 0;
+		rLoc = 6921;
+		rType = 0;
+		vrLen = 254;
+		vrLoc = 6002;
+	};
+	04BDEDCE11C0DA5500A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 214";
+		rLen = 0;
+		rLoc = 6949;
+		rType = 0;
+		vrLen = 1655;
+		vrLoc = 5842;
+	};
+	04BDEDD311C0DB8800A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 213";
+		rLen = 0;
+		rLoc = 6853;
+		rType = 0;
+		vrLen = 1663;
+		vrLoc = 5845;
+	};
+	04BDEDD711C0DBBF00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 213";
+		rLen = 0;
+		rLoc = 6853;
+		rType = 0;
+		vrLen = 1550;
+		vrLoc = 5842;
+	};
+	04BDEDDA11C0DBEA00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 213";
+		rLen = 0;
+		rLoc = 6853;
+		rType = 0;
+		vrLen = 1696;
+		vrLoc = 5895;
+	};
+	04BDEDDC11C0DD0400A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 214";
+		rLen = 0;
+		rLoc = 6981;
+		rType = 0;
+		vrLen = 283;
+		vrLoc = 6130;
+	};
+	04BDEDDF11C0E0FC00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */;
+		name = "MonomuchViewController.h: 44";
+		rLen = 0;
+		rLoc = 1579;
+		rType = 0;
+		vrLen = 1651;
+		vrLoc = 32;
+	};
+	04BDEDE011C0E0FC00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 197";
+		rLen = 0;
+		rLoc = 6053;
+		rType = 0;
+		vrLen = 1184;
+		vrLoc = 5193;
+	};
+	04BDEDE111C0E0FC00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 182";
+		rLen = 0;
+		rLoc = 5527;
+		rType = 0;
+		vrLen = 1665;
+		vrLoc = 4724;
+	};
+	04BDEDE511C0E1A000A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 247";
+		rLen = 0;
+		rLoc = 7250;
+		rType = 0;
+		vrLen = 2170;
+		vrLoc = 6323;
+	};
+	04BDEDE911C0E76700A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 221";
+		rLen = 0;
+		rLoc = 6483;
+		rType = 0;
+		vrLen = 2221;
+		vrLoc = 6124;
+	};
+	04BDEDEB11C0EBDB00A6027B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */;
+		name = "MonomuchViewController.m: 221";
+		rLen = 0;
+		rLoc = 6483;
+		rType = 0;
+		vrLen = 2331;
+		vrLoc = 6124;
 	};
 	1D3623240D0F684500981E51 /* MonomuchAppDelegate.h */ = {
 		uiCtxt = {
@@ -4797,18 +5675,18 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1322, 672}}";
-			sepNavSelRange = "{1522, 0}";
-			sepNavVisRange = "{0, 1530}";
+			sepNavIntBoundsRect = "{{0, 0}, {907, 714}}";
+			sepNavSelRange = "{1579, 0}";
+			sepNavVisRange = "{32, 1651}";
 			sepNavWindowFrame = "{{1981, 938}, {780, 615}}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1552, 3976}}";
-			sepNavSelRange = "{9033, 0}";
-			sepNavVisRange = "{8012, 1078}";
-			sepNavWindowFrame = "{{1981, 938}, {780, 615}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1322, 4522}}";
+			sepNavSelRange = "{6483, 0}";
+			sepNavVisRange = "{6124, 2331}";
+			sepNavWindowFrame = "{{1981, 318}, {997, 1235}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -4816,11 +5694,37 @@
 		activeExecutable = 04BDE8C211BE92C500A6027B /* Monomuch */;
 		activeSDKPreference = iphonesimulator3.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Monomuch */;
+		breakpoints = (
+		);
 		codeSenseManager = 04BDE8D411BE92CA00A6027B /* Code sense */;
 		executables = (
 			04BDE8C211BE92C500A6027B /* Monomuch */,
 		);
 		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					303,
+					20,
+					202,
+					202,
+					132,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -5345,9 +6249,97 @@
 			04BDED2D11C050FB00A6027B /* PBXTextBookmark */ = 04BDED2D11C050FB00A6027B /* PBXTextBookmark */;
 			04BDED3011C0512000A6027B /* PBXTextBookmark */ = 04BDED3011C0512000A6027B /* PBXTextBookmark */;
 			04BDED3511C05B5700A6027B /* PBXTextBookmark */ = 04BDED3511C05B5700A6027B /* PBXTextBookmark */;
+			04BDED3611C05EEE00A6027B /* PBXTextBookmark */ = 04BDED3611C05EEE00A6027B /* PBXTextBookmark */;
+			04BDED3711C05EEE00A6027B /* PBXTextBookmark */ = 04BDED3711C05EEE00A6027B /* PBXTextBookmark */;
+			04BDED3811C05EEE00A6027B /* PBXTextBookmark */ = 04BDED3811C05EEE00A6027B /* PBXTextBookmark */;
+			04BDED3C11C0CC2A00A6027B /* XCBuildMessageTextBookmark */ = 04BDED3C11C0CC2A00A6027B /* XCBuildMessageTextBookmark */;
+			04BDED3F11C0CCBF00A6027B /* PBXTextBookmark */ = 04BDED3F11C0CCBF00A6027B /* PBXTextBookmark */;
+			04BDED4211C0CCBF00A6027B /* PBXTextBookmark */ = 04BDED4211C0CCBF00A6027B /* PBXTextBookmark */;
+			04BDED4311C0CCCB00A6027B /* PBXTextBookmark */ = 04BDED4311C0CCCB00A6027B /* PBXTextBookmark */;
+			04BDED4411C0CCCE00A6027B /* PBXTextBookmark */ = 04BDED4411C0CCCE00A6027B /* PBXTextBookmark */;
+			04BDED4511C0CCCE00A6027B /* PBXTextBookmark */ = 04BDED4511C0CCCE00A6027B /* PBXTextBookmark */;
+			04BDED4611C0CCE600A6027B /* PBXTextBookmark */ = 04BDED4611C0CCE600A6027B /* PBXTextBookmark */;
+			04BDED4711C0CCF200A6027B /* PBXTextBookmark */ = 04BDED4711C0CCF200A6027B /* PBXTextBookmark */;
+			04BDED4811C0CCF200A6027B /* PBXTextBookmark */ = 04BDED4811C0CCF200A6027B /* PBXTextBookmark */;
+			04BDED4911C0CD5800A6027B /* PBXTextBookmark */ = 04BDED4911C0CD5800A6027B /* PBXTextBookmark */;
+			04BDED4A11C0CD6900A6027B /* PBXTextBookmark */ = 04BDED4A11C0CD6900A6027B /* PBXTextBookmark */;
+			04BDED4B11C0CD6900A6027B /* PBXTextBookmark */ = 04BDED4B11C0CD6900A6027B /* PBXTextBookmark */;
+			04BDED5011C0D08700A6027B /* PBXTextBookmark */ = 04BDED5011C0D08700A6027B /* PBXTextBookmark */;
+			04BDED5111C0D08700A6027B /* PBXTextBookmark */ = 04BDED5111C0D08700A6027B /* PBXTextBookmark */;
+			04BDED5211C0D0BD00A6027B /* PBXTextBookmark */ = 04BDED5211C0D0BD00A6027B /* PBXTextBookmark */;
+			04BDED5B11C0D0FD00A6027B /* PBXTextBookmark */ = 04BDED5B11C0D0FD00A6027B /* PBXTextBookmark */;
+			04BDED5C11C0D0FD00A6027B /* PBXTextBookmark */ = 04BDED5C11C0D0FD00A6027B /* PBXTextBookmark */;
+			04BDED5D11C0D0FD00A6027B /* PBXTextBookmark */ = 04BDED5D11C0D0FD00A6027B /* PBXTextBookmark */;
+			04BDED6311C0D15C00A6027B /* PBXTextBookmark */ = 04BDED6311C0D15C00A6027B /* PBXTextBookmark */;
+			04BDED6411C0D15C00A6027B /* PBXTextBookmark */ = 04BDED6411C0D15C00A6027B /* PBXTextBookmark */;
+			04BDED6611C0D15C00A6027B /* PBXTextBookmark */ = 04BDED6611C0D15C00A6027B /* PBXTextBookmark */;
+			04BDED6711C0D15C00A6027B /* PBXTextBookmark */ = 04BDED6711C0D15C00A6027B /* PBXTextBookmark */;
+			04BDED6911C0D15C00A6027B /* PBXTextBookmark */ = 04BDED6911C0D15C00A6027B /* PBXTextBookmark */;
+			04BDED6D11C0D1A000A6027B /* PBXTextBookmark */ = 04BDED6D11C0D1A000A6027B /* PBXTextBookmark */;
+			04BDED6E11C0D1A000A6027B /* PBXTextBookmark */ = 04BDED6E11C0D1A000A6027B /* PBXTextBookmark */;
+			04BDED6F11C0D1A000A6027B /* PBXTextBookmark */ = 04BDED6F11C0D1A000A6027B /* PBXTextBookmark */;
+			04BDED7011C0D1A000A6027B /* PBXTextBookmark */ = 04BDED7011C0D1A000A6027B /* PBXTextBookmark */;
+			04BDED7911C0D20200A6027B /* XCBuildMessageTextBookmark */ = 04BDED7911C0D20200A6027B /* XCBuildMessageTextBookmark */;
+			04BDED7A11C0D20200A6027B /* PBXTextBookmark */ = 04BDED7A11C0D20200A6027B /* PBXTextBookmark */;
+			04BDED7D11C0D20F00A6027B /* PBXTextBookmark */ = 04BDED7D11C0D20F00A6027B /* PBXTextBookmark */;
+			04BDED7E11C0D21C00A6027B /* PBXTextBookmark */ = 04BDED7E11C0D21C00A6027B /* PBXTextBookmark */;
+			04BDED7F11C0D21C00A6027B /* PBXTextBookmark */ = 04BDED7F11C0D21C00A6027B /* PBXTextBookmark */;
+			04BDED8111C0D21C00A6027B /* PBXTextBookmark */ = 04BDED8111C0D21C00A6027B /* PBXTextBookmark */;
+			04BDED8311C0D22000A6027B /* PBXTextBookmark */ = 04BDED8311C0D22000A6027B /* PBXTextBookmark */;
+			04BDED8611C0D23000A6027B /* PBXTextBookmark */ = 04BDED8611C0D23000A6027B /* PBXTextBookmark */;
+			04BDED8911C0D24400A6027B /* PBXTextBookmark */ = 04BDED8911C0D24400A6027B /* PBXTextBookmark */;
+			04BDED8A11C0D24E00A6027B /* PBXTextBookmark */ = 04BDED8A11C0D24E00A6027B /* PBXTextBookmark */;
+			04BDED8B11C0D24E00A6027B /* PBXTextBookmark */ = 04BDED8B11C0D24E00A6027B /* PBXTextBookmark */;
+			04BDED8D11C0D24E00A6027B /* PBXTextBookmark */ = 04BDED8D11C0D24E00A6027B /* PBXTextBookmark */;
+			04BDED9111C0D6C200A6027B /* PBXTextBookmark */ = 04BDED9111C0D6C200A6027B /* PBXTextBookmark */;
+			04BDED9611C0D6F500A6027B /* PBXTextBookmark */ = 04BDED9611C0D6F500A6027B /* PBXTextBookmark */;
+			04BDED9911C0D70600A6027B /* PBXTextBookmark */ = 04BDED9911C0D70600A6027B /* PBXTextBookmark */;
+			04BDED9A11C0D71900A6027B /* PBXTextBookmark */ = 04BDED9A11C0D71900A6027B /* PBXTextBookmark */;
+			04BDED9B11C0D71D00A6027B /* PBXTextBookmark */ = 04BDED9B11C0D71D00A6027B /* PBXTextBookmark */;
+			04BDED9C11C0D71D00A6027B /* PBXTextBookmark */ = 04BDED9C11C0D71D00A6027B /* PBXTextBookmark */;
+			04BDED9E11C0D71D00A6027B /* PBXTextBookmark */ = 04BDED9E11C0D71D00A6027B /* PBXTextBookmark */;
+			04BDEDA211C0D7E800A6027B /* PBXTextBookmark */ = 04BDEDA211C0D7E800A6027B /* PBXTextBookmark */;
+			04BDEDA411C0D7F600A6027B /* PBXTextBookmark */ = 04BDEDA411C0D7F600A6027B /* PBXTextBookmark */;
+			04BDEDA511C0D7FF00A6027B /* PBXTextBookmark */ = 04BDEDA511C0D7FF00A6027B /* PBXTextBookmark */;
+			04BDEDA811C0D81900A6027B /* PBXTextBookmark */ = 04BDEDA811C0D81900A6027B /* PBXTextBookmark */;
+			04BDEDA911C0D81900A6027B /* PBXTextBookmark */ = 04BDEDA911C0D81900A6027B /* PBXTextBookmark */;
+			04BDEDAC11C0D83300A6027B /* PBXTextBookmark */ = 04BDEDAC11C0D83300A6027B /* PBXTextBookmark */;
+			04BDEDAD11C0D83300A6027B /* PBXTextBookmark */ = 04BDEDAD11C0D83300A6027B /* PBXTextBookmark */;
+			04BDEDAF11C0D83300A6027B /* PBXTextBookmark */ = 04BDEDAF11C0D83300A6027B /* PBXTextBookmark */;
+			04BDEDB311C0D84700A6027B /* PBXTextBookmark */ = 04BDEDB311C0D84700A6027B /* PBXTextBookmark */;
+			04BDEDB511C0D85400A6027B /* PBXTextBookmark */ = 04BDEDB511C0D85400A6027B /* PBXTextBookmark */;
+			04BDEDB611C0D87100A6027B /* PBXTextBookmark */ = 04BDEDB611C0D87100A6027B /* PBXTextBookmark */;
+			04BDEDB911C0D8F900A6027B /* PBXTextBookmark */ = 04BDEDB911C0D8F900A6027B /* PBXTextBookmark */;
+			04BDEDBD11C0D94400A6027B /* PBXTextBookmark */ = 04BDEDBD11C0D94400A6027B /* PBXTextBookmark */;
+			04BDEDC011C0D95A00A6027B /* PBXTextBookmark */ = 04BDEDC011C0D95A00A6027B /* PBXTextBookmark */;
+			04BDEDC111C0D95A00A6027B /* PBXTextBookmark */ = 04BDEDC111C0D95A00A6027B /* PBXTextBookmark */;
+			04BDEDC311C0D95A00A6027B /* PBXTextBookmark */ = 04BDEDC311C0D95A00A6027B /* PBXTextBookmark */;
+			04BDEDC711C0D99600A6027B /* PBXTextBookmark */ = 04BDEDC711C0D99600A6027B /* PBXTextBookmark */;
+			04BDEDC911C0D9A500A6027B /* PBXTextBookmark */ = 04BDEDC911C0D9A500A6027B /* PBXTextBookmark */;
+			04BDEDCA11C0D9B000A6027B /* PBXTextBookmark */ = 04BDEDCA11C0D9B000A6027B /* PBXTextBookmark */;
+			04BDEDCB11C0DA3E00A6027B /* PBXTextBookmark */ = 04BDEDCB11C0DA3E00A6027B /* PBXTextBookmark */;
+			04BDEDCE11C0DA5500A6027B /* PBXTextBookmark */ = 04BDEDCE11C0DA5500A6027B /* PBXTextBookmark */;
+			04BDEDD311C0DB8800A6027B /* PBXTextBookmark */ = 04BDEDD311C0DB8800A6027B /* PBXTextBookmark */;
+			04BDEDD711C0DBBF00A6027B /* PBXTextBookmark */ = 04BDEDD711C0DBBF00A6027B /* PBXTextBookmark */;
+			04BDEDDA11C0DBEA00A6027B /* PBXTextBookmark */ = 04BDEDDA11C0DBEA00A6027B /* PBXTextBookmark */;
+			04BDEDDC11C0DD0400A6027B /* PBXTextBookmark */ = 04BDEDDC11C0DD0400A6027B /* PBXTextBookmark */;
+			04BDEDDF11C0E0FC00A6027B /* PBXTextBookmark */ = 04BDEDDF11C0E0FC00A6027B /* PBXTextBookmark */;
+			04BDEDE011C0E0FC00A6027B /* PBXTextBookmark */ = 04BDEDE011C0E0FC00A6027B /* PBXTextBookmark */;
+			04BDEDE111C0E0FC00A6027B /* PBXTextBookmark */ = 04BDEDE111C0E0FC00A6027B /* PBXTextBookmark */;
+			04BDEDE511C0E1A000A6027B /* PBXTextBookmark */ = 04BDEDE511C0E1A000A6027B /* PBXTextBookmark */;
+			04BDEDE911C0E76700A6027B /* PBXTextBookmark */ = 04BDEDE911C0E76700A6027B /* PBXTextBookmark */;
+			04BDEDEB11C0EBDB00A6027B /* PBXTextBookmark */ = 04BDEDEB11C0EBDB00A6027B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 04BDE8D311BE92CA00A6027B /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	9628D0FF100E8A6700C3944E /* OSCValue.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = OSCValue.m;
+		path = VVOSC/FrameworkSrc/OSCValue.m;
+		sourceTree = "<group>";
 	};
 }

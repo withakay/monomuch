@@ -40,6 +40,9 @@
 - (void) setStateForButtonWithMessage:(OSCMessage *)m;
 - (void) setStateForButtonsInColumnWithMessage:(OSCMessage *)m;
 - (void) setStateForButtonsInRowWithMessage:(OSCMessage *)m;
+- (void) setStateForButtonsInFrameWithMessage:(OSCMessage *)m;
+- (void) clearButtonsWithMessage:(OSCMessage *)m;
+- (void) setPrefixWithMessage:(OSCMessage *)m;
 
 extern int const TAG_BASE;
 

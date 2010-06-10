@@ -168,30 +168,57 @@ int const TAG_BASE = 10000;
 
 - (void) setStateForButtonsInColumnWithMessage:(OSCMessage *)m {
 	int col = [[m valueAtIndex:0 ] intValue];
-	int idx = 1;
-	while ([m valueAtIndex: idx ] != nil) {
+	for (int idx=1; idx < [m valueCount]; idx++) {
 		NSLog(@"idx = %d", idx);
 		for (int x=0; x<8; x++) {
 			NSLog(@"x = %d", x);
 			int state = [self getBitFromInt:[[m valueAtIndex:idx ] intValue] AtIndex: x];
 			[self setStateForButtonAtColumn:col andRow:x withState:state];
 		}
-		idx++;
 	}	
 }
 
 - (void) setStateForButtonsInRowWithMessage:(OSCMessage *)m {
 	int row = [[m valueAtIndex:0 ] intValue];
-	int idx = 1;
-	while ([m valueAtIndex: idx ] != nil) {
+	for (int idx=1; idx < [m valueCount]; idx++) {
 		NSLog(@"idx = %d", idx);
 		for (int x=0; x<8; x++) {
 			NSLog(@"x = %d", x);
 			int state = [self getBitFromInt:[[m valueAtIndex:idx ] intValue] AtIndex: x];
 			[self setStateForButtonAtColumn:x andRow:row withState:state];
 		}
-		idx++;
 	}	
+}
+
+/*
+ Functionally identical to
+ 
+ /40h/led_col 0 A
+ /40h/led_col 1 B
+ /40h/led_col 2 C
+ /40h/led_col 3 D
+ /40h/led_col 4 E
+ /40h/led_col 5 F
+ /40h/led_col 6 G
+ /40h/led_col 7 H
+ */
+- (void) setStateForButtonsInFrameWithMessage:(OSCMessage *)m {
+	for (int idx=0; idx < [m valueCount]; idx++) {
+		// idx is column
+		for (int x=0; x<8; x++) {
+			NSLog(@"x = %d", x);
+			int state = [self getBitFromInt:[[m valueAtIndex:idx ] intValue] AtIndex: x];
+			[self setStateForButtonAtColumn:idx andRow:x withState:state];
+		}
+	}
+}
+
+- (void) clearButtonsWithMessage:(OSCMessage *)m {
+	
+}
+
+- (void) setPrefixWithMessage:(OSCMessage *)m {
+	prefixTextField.text = [[m value] stringValue];
 }
 
 // called by delegate on message
@@ -202,14 +229,24 @@ int const TAG_BASE = 10000;
 	NSString *address = [m address];
 	NSString *prefix = [[[NSString alloc] initWithString:prefixTextField.text] autorelease];
 	
-	NSLog(@"address: %@, value: %d %d %d", 
+	NSString *logMsg = [[[NSString alloc] init] autorelease];
+	int idx = 0;
+	while (idx < [m valueCount]) {
+		//NSLog(@"%d", idx);
+		//NSLog(@"%d", [[m valueAtIndex: idx ] intValue]);
+		logMsg = [logMsg stringByAppendingFormat:@"%d, ", [[m valueAtIndex: idx ] intValue]];
+		idx++;
+	}
+	
+	NSLog(@"address: %@, value: %@", 
 		  address, 
-		  [[m valueAtIndex:0 ] intValue], 
-		  [[m valueAtIndex:1 ] intValue], 
-		  [[m valueAtIndex:2 ] intValue]);
+		  logMsg);
+	//[logMsg release];
 	
 	[logTextView performSelectorOnMainThread:@selector(setText:) 
-								  withObject:[NSString stringWithFormat:@"received address: %@, value: %d %d %d ", address, [[m valueAtIndex:0 ] intValue], [[m valueAtIndex:1 ] intValue], [[m valueAtIndex:2 ] intValue]] 
+								  withObject:[NSString stringWithFormat:@"received message from address: %@, with value(s): %@", 
+											  address, 
+											  logMsg] 
 							   waitUntilDone:NO];
 	
 	
@@ -263,22 +300,22 @@ int const TAG_BASE = 10000;
 	 update a display, offset by x and y.
 	 */
 	NSString *frame = [[[NSString alloc] initWithFormat:@"%@/%@", prefix, @"frame"] autorelease];
-	if([address isEqualToString:ledCol]) {
-		NSLog(@"predicate matched '%@'", address);
-		
+	if([address isEqualToString:frame]) {
+		NSLog(@"matched '%@'", address);
+		[self performSelectorOnMainThread:@selector(setStateForButtonsInFrameWithMessage:) withObject:m waitUntilDone:NO];
 	}
 	
 	// clear [state]
-	NSString *frame = [[[NSString alloc] initWithFormat:@"%@/%@", prefix, @"frame"] autorelease];
-	if([address isEqualToString:ledCol]) {
-		NSLog(@"predicate matched '%@'", address);
-		
+	NSString *state = [[[NSString alloc] initWithFormat:@"%@/%@", prefix, @"state"] autorelease];
+	if([address isEqualToString:state]) {
+		NSLog(@"matched '%@'", address);
+		[self performSelectorOnMainThread:@selector(clearButtonsWithMessage:) withObject:m waitUntilDone:NO];
 	}
 	
 	// sys/prefix [string]
 	if([address isEqualToString:@"/sys/prefix"]) {
-		NSLog(@"predicate matched '%@'", address);
-		// we need to check if the first value of the message is a string or an int
+		NSLog(@"matched '%@'", address);
+		[self performSelectorOnMainThread:@selector(setPrefixWithMessage:) withObject:m waitUntilDone:NO];
 	}
 	
 }
