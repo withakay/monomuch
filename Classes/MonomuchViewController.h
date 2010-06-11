@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <VVOSC/VVOSC.h>
+#include <ifaddrs.h>
+#include <arpa/inet.h>
+#import "VVOSC.h"
+#import "MonomeButton.h"
 
 @interface MonomuchViewController : UIViewController {
 	OSCManager					*manager;
@@ -19,7 +22,8 @@
 	IBOutlet UITextField		*hostAddressTextField;	
 	IBOutlet UITextField		*hostPortTextField;	
 	IBOutlet UITextField		*listenPortTextField;	
-	IBOutlet UITextField		*prefixTextField;	
+	IBOutlet UITextField		*prefixTextField;
+	IBOutlet UILabel			*iPadAddressLabel;
 	
 	int							gridWidth;
 	int							gridHeight;
@@ -29,6 +33,7 @@
 @property (nonatomic, retain) UITextField *hostPortTextField;
 @property (nonatomic, retain) UITextField *listenPortTextField;
 @property (nonatomic, retain) UITextField *prefixTextField;
+@property (nonatomic, retain) UILabel *iPadAddressLabel;
 @property (nonatomic)	int gridWidth;
 @property (nonatomic)	int gridHeight;
 
@@ -43,6 +48,8 @@
 - (void) setStateForButtonsInFrameWithMessage:(OSCMessage *)m;
 - (void) clearButtonsWithMessage:(OSCMessage *)m;
 - (void) setPrefixWithMessage:(OSCMessage *)m;
+
+- (NSString *)getIPAddress;
 
 extern int const TAG_BASE;
 

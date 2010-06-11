@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0466895911C2667200B22479 /* BrushedMetal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0466895411C2667200B22479 /* BrushedMetal.png */; };
+		0466895A11C2667200B22479 /* BrushedMetalBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0466895511C2667200B22479 /* BrushedMetalBack.jpg */; };
+		0466895B11C2667200B22479 /* button_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 0466895611C2667200B22479 /* button_grid.png */; };
+		0466895C11C2667200B22479 /* button_overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 0466895711C2667200B22479 /* button_overlay.png */; };
+		0466895D11C2667200B22479 /* monome_buttons_20100610_0834.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0466895811C2667200B22479 /* monome_buttons_20100610_0834.psd */; };
+		046689B311C2839800B22479 /* walnut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046689B211C2839800B22479 /* walnut.jpg */; };
+		046689C111C2A5DB00B22479 /* monome_walnut.png in Resources */ = {isa = PBXBuildFile; fileRef = 046689C011C2A5DB00B22479 /* monome_walnut.png */; };
+		046689C511C2AA9200B22479 /* monome_walnut_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 046689C411C2AA9200B22479 /* monome_walnut_top.png */; };
+		046689C911C2B44E00B22479 /* monomuch_walnut_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 046689C811C2B44E00B22479 /* monomuch_walnut_top.png */; };
+		046689F811C2D04A00B22479 /* connect_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 046689F711C2D04A00B22479 /* connect_button.png */; };
+		04BDEE0D11C0F47600A6027B /* MonomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEE0C11C0F47600A6027B /* MonomeButton.m */; };
+		04BDEE3E11C0F6C800A6027B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BDEE3D11C0F6C800A6027B /* QuartzCore.framework */; };
+		04BDEEEF11C1005900A6027B /* OSCAddressSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEC211C1005900A6027B /* OSCAddressSpace.m */; };
+		04BDEEF011C1005900A6027B /* OSCBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEC411C1005900A6027B /* OSCBundle.m */; };
+		04BDEEF111C1005900A6027B /* OSCInPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEC711C1005900A6027B /* OSCInPort.m */; };
+		04BDEEF211C1005900A6027B /* OSCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEC911C1005900A6027B /* OSCManager.m */; };
+		04BDEEF311C1005900A6027B /* OSCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEECB11C1005900A6027B /* OSCMessage.m */; };
+		04BDEEF411C1005900A6027B /* OSCNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEECD11C1005900A6027B /* OSCNode.m */; };
+		04BDEEF511C1005900A6027B /* OSCOutPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEECF11C1005900A6027B /* OSCOutPort.m */; };
+		04BDEEF611C1005900A6027B /* OSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEED111C1005900A6027B /* OSCPacket.m */; };
+		04BDEEF711C1005900A6027B /* OSCStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEED311C1005900A6027B /* OSCStringAdditions.m */; };
+		04BDEEF811C1005900A6027B /* OSCValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEED511C1005900A6027B /* OSCValue.m */; };
+		04BDEEF911C1005900A6027B /* OSCZeroConfDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEED711C1005900A6027B /* OSCZeroConfDomain.m */; };
+		04BDEEFA11C1005900A6027B /* OSCZeroConfManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEED911C1005900A6027B /* OSCZeroConfManager.m */; };
+		04BDEEFB11C1005900A6027B /* MutLockArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEDE11C1005900A6027B /* MutLockArray.m */; };
+		04BDEEFC11C1005900A6027B /* MutLockDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEE011C1005900A6027B /* MutLockDict.m */; };
+		04BDEEFD11C1005900A6027B /* MutNRLockArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEE211C1005900A6027B /* MutNRLockArray.m */; };
+		04BDEEFE11C1005900A6027B /* MutNRLockDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEE411C1005900A6027B /* MutNRLockDict.m */; };
+		04BDEEFF11C1005900A6027B /* NamedMutLockArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEE611C1005900A6027B /* NamedMutLockArray.m */; };
+		04BDEF0011C1005900A6027B /* ObjectHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEE811C1005900A6027B /* ObjectHolder.m */; };
+		04BDEF0111C1005900A6027B /* VVStopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEEB11C1005900A6027B /* VVStopwatch.m */; };
+		04BDEF0211C1005900A6027B /* VVThreadLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEED11C1005900A6027B /* VVThreadLoop.m */; };
 		1D3623260D0F684500981E51 /* MonomuchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MonomuchAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -18,7 +50,64 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0466895411C2667200B22479 /* BrushedMetal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrushedMetal.png; sourceTree = "<group>"; };
+		0466895511C2667200B22479 /* BrushedMetalBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BrushedMetalBack.jpg; sourceTree = "<group>"; };
+		0466895611C2667200B22479 /* button_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_grid.png; sourceTree = "<group>"; };
+		0466895711C2667200B22479 /* button_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_overlay.png; sourceTree = "<group>"; };
+		0466895811C2667200B22479 /* monome_buttons_20100610_0834.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = monome_buttons_20100610_0834.psd; sourceTree = "<group>"; };
+		046689B211C2839800B22479 /* walnut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = walnut.jpg; sourceTree = "<group>"; };
+		046689C011C2A5DB00B22479 /* monome_walnut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monome_walnut.png; sourceTree = "<group>"; };
+		046689C411C2AA9200B22479 /* monome_walnut_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monome_walnut_top.png; sourceTree = "<group>"; };
+		046689C811C2B44E00B22479 /* monomuch_walnut_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monomuch_walnut_top.png; sourceTree = "<group>"; };
+		046689F711C2D04A00B22479 /* connect_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect_button.png; sourceTree = "<group>"; };
 		04BDEB3411BFBF6000A6027B /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = usr/lib/libicucore.A.dylib; sourceTree = SDKROOT; };
+		04BDEE0B11C0F47600A6027B /* MonomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonomeButton.h; sourceTree = "<group>"; };
+		04BDEE0C11C0F47600A6027B /* MonomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonomeButton.m; sourceTree = "<group>"; };
+		04BDEE3D11C0F6C800A6027B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		04BDEEC111C1005900A6027B /* OSCAddressSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCAddressSpace.h; sourceTree = "<group>"; };
+		04BDEEC211C1005900A6027B /* OSCAddressSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCAddressSpace.m; sourceTree = "<group>"; };
+		04BDEEC311C1005900A6027B /* OSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCBundle.h; sourceTree = "<group>"; };
+		04BDEEC411C1005900A6027B /* OSCBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCBundle.m; sourceTree = "<group>"; };
+		04BDEEC511C1005900A6027B /* OSCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCConstants.h; sourceTree = "<group>"; };
+		04BDEEC611C1005900A6027B /* OSCInPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCInPort.h; sourceTree = "<group>"; };
+		04BDEEC711C1005900A6027B /* OSCInPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCInPort.m; sourceTree = "<group>"; };
+		04BDEEC811C1005900A6027B /* OSCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCManager.h; sourceTree = "<group>"; };
+		04BDEEC911C1005900A6027B /* OSCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCManager.m; sourceTree = "<group>"; };
+		04BDEECA11C1005900A6027B /* OSCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCMessage.h; sourceTree = "<group>"; };
+		04BDEECB11C1005900A6027B /* OSCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCMessage.m; sourceTree = "<group>"; };
+		04BDEECC11C1005900A6027B /* OSCNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCNode.h; sourceTree = "<group>"; };
+		04BDEECD11C1005900A6027B /* OSCNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCNode.m; sourceTree = "<group>"; };
+		04BDEECE11C1005900A6027B /* OSCOutPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCOutPort.h; sourceTree = "<group>"; };
+		04BDEECF11C1005900A6027B /* OSCOutPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCOutPort.m; sourceTree = "<group>"; };
+		04BDEED011C1005900A6027B /* OSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCPacket.h; sourceTree = "<group>"; };
+		04BDEED111C1005900A6027B /* OSCPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCPacket.m; sourceTree = "<group>"; };
+		04BDEED211C1005900A6027B /* OSCStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCStringAdditions.h; sourceTree = "<group>"; };
+		04BDEED311C1005900A6027B /* OSCStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCStringAdditions.m; sourceTree = "<group>"; };
+		04BDEED411C1005900A6027B /* OSCValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCValue.h; sourceTree = "<group>"; };
+		04BDEED511C1005900A6027B /* OSCValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCValue.m; sourceTree = "<group>"; };
+		04BDEED611C1005900A6027B /* OSCZeroConfDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCZeroConfDomain.h; sourceTree = "<group>"; };
+		04BDEED711C1005900A6027B /* OSCZeroConfDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCZeroConfDomain.m; sourceTree = "<group>"; };
+		04BDEED811C1005900A6027B /* OSCZeroConfManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCZeroConfManager.h; sourceTree = "<group>"; };
+		04BDEED911C1005900A6027B /* OSCZeroConfManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCZeroConfManager.m; sourceTree = "<group>"; };
+		04BDEEDA11C1005900A6027B /* VVOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVOSC.h; sourceTree = "<group>"; };
+		04BDEEDD11C1005900A6027B /* MutLockArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutLockArray.h; sourceTree = "<group>"; };
+		04BDEEDE11C1005900A6027B /* MutLockArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutLockArray.m; sourceTree = "<group>"; };
+		04BDEEDF11C1005900A6027B /* MutLockDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutLockDict.h; sourceTree = "<group>"; };
+		04BDEEE011C1005900A6027B /* MutLockDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutLockDict.m; sourceTree = "<group>"; };
+		04BDEEE111C1005900A6027B /* MutNRLockArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutNRLockArray.h; sourceTree = "<group>"; };
+		04BDEEE211C1005900A6027B /* MutNRLockArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutNRLockArray.m; sourceTree = "<group>"; };
+		04BDEEE311C1005900A6027B /* MutNRLockDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutNRLockDict.h; sourceTree = "<group>"; };
+		04BDEEE411C1005900A6027B /* MutNRLockDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutNRLockDict.m; sourceTree = "<group>"; };
+		04BDEEE511C1005900A6027B /* NamedMutLockArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedMutLockArray.h; sourceTree = "<group>"; };
+		04BDEEE611C1005900A6027B /* NamedMutLockArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamedMutLockArray.m; sourceTree = "<group>"; };
+		04BDEEE711C1005900A6027B /* ObjectHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectHolder.h; sourceTree = "<group>"; };
+		04BDEEE811C1005900A6027B /* ObjectHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectHolder.m; sourceTree = "<group>"; };
+		04BDEEE911C1005900A6027B /* VVBasicMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVBasicMacros.h; sourceTree = "<group>"; };
+		04BDEEEA11C1005900A6027B /* VVStopwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVStopwatch.h; sourceTree = "<group>"; };
+		04BDEEEB11C1005900A6027B /* VVStopwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVStopwatch.m; sourceTree = "<group>"; };
+		04BDEEEC11C1005900A6027B /* VVThreadLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVThreadLoop.h; sourceTree = "<group>"; };
+		04BDEEED11C1005900A6027B /* VVThreadLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVThreadLoop.m; sourceTree = "<group>"; };
+		04BDEEEE11C1005900A6027B /* VVBasics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVBasics.h; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* MonomuchAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonomuchAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* MonomuchAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonomuchAppDelegate.m; sourceTree = "<group>"; };
@@ -42,15 +131,110 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				04BDEE3E11C0F6C800A6027B /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0466895311C2667100B22479 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				046689F711C2D04A00B22479 /* connect_button.png */,
+				046689C811C2B44E00B22479 /* monomuch_walnut_top.png */,
+				046689C411C2AA9200B22479 /* monome_walnut_top.png */,
+				046689C011C2A5DB00B22479 /* monome_walnut.png */,
+				046689B211C2839800B22479 /* walnut.jpg */,
+				0466895411C2667200B22479 /* BrushedMetal.png */,
+				0466895511C2667200B22479 /* BrushedMetalBack.jpg */,
+				0466895611C2667200B22479 /* button_grid.png */,
+				0466895711C2667200B22479 /* button_overlay.png */,
+				0466895811C2667200B22479 /* monome_buttons_20100610_0834.psd */,
+			);
+			name = images;
+			path = assets/images;
+			sourceTree = "<group>";
+		};
+		04BDEEBF11C1005900A6027B /* VVOSC */ = {
+			isa = PBXGroup;
+			children = (
+				04BDEEC011C1005900A6027B /* FrameworkSrc */,
+				04BDEEDA11C1005900A6027B /* VVOSC.h */,
+			);
+			path = VVOSC;
+			sourceTree = "<group>";
+		};
+		04BDEEC011C1005900A6027B /* FrameworkSrc */ = {
+			isa = PBXGroup;
+			children = (
+				04BDEEC111C1005900A6027B /* OSCAddressSpace.h */,
+				04BDEEC211C1005900A6027B /* OSCAddressSpace.m */,
+				04BDEEC311C1005900A6027B /* OSCBundle.h */,
+				04BDEEC411C1005900A6027B /* OSCBundle.m */,
+				04BDEEC511C1005900A6027B /* OSCConstants.h */,
+				04BDEEC611C1005900A6027B /* OSCInPort.h */,
+				04BDEEC711C1005900A6027B /* OSCInPort.m */,
+				04BDEEC811C1005900A6027B /* OSCManager.h */,
+				04BDEEC911C1005900A6027B /* OSCManager.m */,
+				04BDEECA11C1005900A6027B /* OSCMessage.h */,
+				04BDEECB11C1005900A6027B /* OSCMessage.m */,
+				04BDEECC11C1005900A6027B /* OSCNode.h */,
+				04BDEECD11C1005900A6027B /* OSCNode.m */,
+				04BDEECE11C1005900A6027B /* OSCOutPort.h */,
+				04BDEECF11C1005900A6027B /* OSCOutPort.m */,
+				04BDEED011C1005900A6027B /* OSCPacket.h */,
+				04BDEED111C1005900A6027B /* OSCPacket.m */,
+				04BDEED211C1005900A6027B /* OSCStringAdditions.h */,
+				04BDEED311C1005900A6027B /* OSCStringAdditions.m */,
+				04BDEED411C1005900A6027B /* OSCValue.h */,
+				04BDEED511C1005900A6027B /* OSCValue.m */,
+				04BDEED611C1005900A6027B /* OSCZeroConfDomain.h */,
+				04BDEED711C1005900A6027B /* OSCZeroConfDomain.m */,
+				04BDEED811C1005900A6027B /* OSCZeroConfManager.h */,
+				04BDEED911C1005900A6027B /* OSCZeroConfManager.m */,
+			);
+			path = FrameworkSrc;
+			sourceTree = "<group>";
+		};
+		04BDEEDB11C1005900A6027B /* VVBasics */ = {
+			isa = PBXGroup;
+			children = (
+				04BDEEDC11C1005900A6027B /* src */,
+				04BDEEEE11C1005900A6027B /* VVBasics.h */,
+			);
+			path = VVBasics;
+			sourceTree = "<group>";
+		};
+		04BDEEDC11C1005900A6027B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				04BDEEDD11C1005900A6027B /* MutLockArray.h */,
+				04BDEEDE11C1005900A6027B /* MutLockArray.m */,
+				04BDEEDF11C1005900A6027B /* MutLockDict.h */,
+				04BDEEE011C1005900A6027B /* MutLockDict.m */,
+				04BDEEE111C1005900A6027B /* MutNRLockArray.h */,
+				04BDEEE211C1005900A6027B /* MutNRLockArray.m */,
+				04BDEEE311C1005900A6027B /* MutNRLockDict.h */,
+				04BDEEE411C1005900A6027B /* MutNRLockDict.m */,
+				04BDEEE511C1005900A6027B /* NamedMutLockArray.h */,
+				04BDEEE611C1005900A6027B /* NamedMutLockArray.m */,
+				04BDEEE711C1005900A6027B /* ObjectHolder.h */,
+				04BDEEE811C1005900A6027B /* ObjectHolder.m */,
+				04BDEEE911C1005900A6027B /* VVBasicMacros.h */,
+				04BDEEEA11C1005900A6027B /* VVStopwatch.h */,
+				04BDEEEB11C1005900A6027B /* VVStopwatch.m */,
+				04BDEEEC11C1005900A6027B /* VVThreadLoop.h */,
+				04BDEEED11C1005900A6027B /* VVThreadLoop.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				04BDEE0B11C0F47600A6027B /* MonomeButton.h */,
+				04BDEE0C11C0F47600A6027B /* MonomeButton.m */,
 				1D3623240D0F684500981E51 /* MonomuchAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MonomuchAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */,
@@ -76,6 +260,7 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				04BDEB3411BFBF6000A6027B /* libicucore.A.dylib */,
+				04BDEE3D11C0F6C800A6027B /* QuartzCore.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -83,6 +268,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				04BDEEDB11C1005900A6027B /* VVBasics */,
+				04BDEEBF11C1005900A6027B /* VVOSC */,
 				32CA4F630368D1EE00C91783 /* Monomuch_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -92,6 +279,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0466895311C2667100B22479 /* images */,
 				2899E5210DE3E06400AC0155 /* MonomuchViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Monomuch-Info.plist */,
@@ -153,6 +341,16 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* MonomuchViewController.xib in Resources */,
+				0466895911C2667200B22479 /* BrushedMetal.png in Resources */,
+				0466895A11C2667200B22479 /* BrushedMetalBack.jpg in Resources */,
+				0466895B11C2667200B22479 /* button_grid.png in Resources */,
+				0466895C11C2667200B22479 /* button_overlay.png in Resources */,
+				0466895D11C2667200B22479 /* monome_buttons_20100610_0834.psd in Resources */,
+				046689B311C2839800B22479 /* walnut.jpg in Resources */,
+				046689C111C2A5DB00B22479 /* monome_walnut.png in Resources */,
+				046689C511C2AA9200B22479 /* monome_walnut_top.png in Resources */,
+				046689C911C2B44E00B22479 /* monomuch_walnut_top.png in Resources */,
+				046689F811C2D04A00B22479 /* connect_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +364,27 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* MonomuchAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* MonomuchViewController.m in Sources */,
+				04BDEE0D11C0F47600A6027B /* MonomeButton.m in Sources */,
+				04BDEEEF11C1005900A6027B /* OSCAddressSpace.m in Sources */,
+				04BDEEF011C1005900A6027B /* OSCBundle.m in Sources */,
+				04BDEEF111C1005900A6027B /* OSCInPort.m in Sources */,
+				04BDEEF211C1005900A6027B /* OSCManager.m in Sources */,
+				04BDEEF311C1005900A6027B /* OSCMessage.m in Sources */,
+				04BDEEF411C1005900A6027B /* OSCNode.m in Sources */,
+				04BDEEF511C1005900A6027B /* OSCOutPort.m in Sources */,
+				04BDEEF611C1005900A6027B /* OSCPacket.m in Sources */,
+				04BDEEF711C1005900A6027B /* OSCStringAdditions.m in Sources */,
+				04BDEEF811C1005900A6027B /* OSCValue.m in Sources */,
+				04BDEEF911C1005900A6027B /* OSCZeroConfDomain.m in Sources */,
+				04BDEEFA11C1005900A6027B /* OSCZeroConfManager.m in Sources */,
+				04BDEEFB11C1005900A6027B /* MutLockArray.m in Sources */,
+				04BDEEFC11C1005900A6027B /* MutLockDict.m in Sources */,
+				04BDEEFD11C1005900A6027B /* MutNRLockArray.m in Sources */,
+				04BDEEFE11C1005900A6027B /* MutNRLockDict.m in Sources */,
+				04BDEEFF11C1005900A6027B /* NamedMutLockArray.m in Sources */,
+				04BDEF0011C1005900A6027B /* ObjectHolder.m in Sources */,
+				04BDEF0111C1005900A6027B /* VVStopwatch.m in Sources */,
+				04BDEF0211C1005900A6027B /* VVThreadLoop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,20 +394,18 @@
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ADDITIONAL_SDKS = "$HOME/Library/SDKs/VVOSC/$(PLATFORM_NAME).sdk $HOME/Library/SDKs/VVBasics/$(PLATFORM_NAME).sdk";
+				ADDITIONAL_SDKS = "";
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = armv7;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Monomuch_Prefix.pch;
 				INFOPLIST_FILE = "Monomuch-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lVVOSC",
-					"-lVVBasics",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = Monomuch;
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -202,13 +419,14 @@
 				INFOPLIST_FILE = "Monomuch-Info.plist";
 				PRODUCT_NAME = Monomuch;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				"ARCHS[sdk=iphonesimulator*]" = i386;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -223,7 +441,7 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphoneos3.2]" = armv7;
 				"ARCHS[sdk=iphonesimulator*]" = i386;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
