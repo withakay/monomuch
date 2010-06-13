@@ -17,6 +17,8 @@
 		046689C511C2AA9200B22479 /* monome_walnut_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 046689C411C2AA9200B22479 /* monome_walnut_top.png */; };
 		046689C911C2B44E00B22479 /* monomuch_walnut_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 046689C811C2B44E00B22479 /* monomuch_walnut_top.png */; };
 		046689F811C2D04A00B22479 /* connect_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 046689F711C2D04A00B22479 /* connect_button.png */; };
+		04668A2511C5442D00B22479 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04668A2311C5442D00B22479 /* SettingsViewController.m */; };
+		04668A2611C5442D00B22479 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04668A2411C5442D00B22479 /* SettingsViewController.xib */; };
 		04BDEE0D11C0F47600A6027B /* MonomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEE0C11C0F47600A6027B /* MonomeButton.m */; };
 		04BDEE3E11C0F6C800A6027B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BDEE3D11C0F6C800A6027B /* QuartzCore.framework */; };
 		04BDEEEF11C1005900A6027B /* OSCAddressSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEC211C1005900A6027B /* OSCAddressSpace.m */; };
@@ -60,6 +62,9 @@
 		046689C411C2AA9200B22479 /* monome_walnut_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monome_walnut_top.png; sourceTree = "<group>"; };
 		046689C811C2B44E00B22479 /* monomuch_walnut_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monomuch_walnut_top.png; sourceTree = "<group>"; };
 		046689F711C2D04A00B22479 /* connect_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect_button.png; sourceTree = "<group>"; };
+		04668A2211C5442D00B22479 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		04668A2311C5442D00B22479 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		04668A2411C5442D00B22479 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = Classes/SettingsViewController.xib; sourceTree = "<group>"; };
 		04BDEB3411BFBF6000A6027B /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = usr/lib/libicucore.A.dylib; sourceTree = SDKROOT; };
 		04BDEE0B11C0F47600A6027B /* MonomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonomeButton.h; sourceTree = "<group>"; };
 		04BDEE0C11C0F47600A6027B /* MonomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonomeButton.m; sourceTree = "<group>"; };
@@ -239,6 +244,8 @@
 				1D3623250D0F684500981E51 /* MonomuchAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* MonomuchViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */,
+				04668A2211C5442D00B22479 /* SettingsViewController.h */,
+				04668A2311C5442D00B22479 /* SettingsViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -279,6 +286,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04668A2411C5442D00B22479 /* SettingsViewController.xib */,
 				0466895311C2667100B22479 /* images */,
 				2899E5210DE3E06400AC0155 /* MonomuchViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -351,6 +359,7 @@
 				046689C511C2AA9200B22479 /* monome_walnut_top.png in Resources */,
 				046689C911C2B44E00B22479 /* monomuch_walnut_top.png in Resources */,
 				046689F811C2D04A00B22479 /* connect_button.png in Resources */,
+				04668A2611C5442D00B22479 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +394,7 @@
 				04BDEF0011C1005900A6027B /* ObjectHolder.m in Sources */,
 				04BDEF0111C1005900A6027B /* VVStopwatch.m in Sources */,
 				04BDEF0211C1005900A6027B /* VVThreadLoop.m in Sources */,
+				04668A2511C5442D00B22479 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
