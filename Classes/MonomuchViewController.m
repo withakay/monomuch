@@ -109,8 +109,10 @@ int const TAG_BASE = 10000;
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return YES;
+	[[UIApplication sharedApplication] setStatusBarOrientation: UIInterfaceOrientationPortrait];
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -342,8 +344,8 @@ int const TAG_BASE = 10000;
 	//[frame release];
 	
 	// clear [state]
-	NSString *state = [[[NSString alloc] initWithFormat:@"%@/%@", prefix, @"state"] autorelease];
-	if([[m address] isEqualToString:state]) {
+	NSString *clear = [[[NSString alloc] initWithFormat:@"%@/%@", prefix, @"clear"] autorelease];
+	if([[m address] isEqualToString:clear]) {
 		//NSLog(@"matched '%@'", address);
 		[self performSelectorOnMainThread:@selector(clearButtonsWithMessage:) withObject:m waitUntilDone:NO];
 	}

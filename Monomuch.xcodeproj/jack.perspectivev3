@@ -334,7 +334,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>046689FD11C2D2A400B22479</string>
+										<string>04668A1811C3A03F00B22479</string>
 										<key>history</key>
 										<array>
 											<string>04BDED1C11C0503F00A6027B</string>
@@ -344,7 +344,7 @@
 											<string>04BDEE8511C0F93800A6027B</string>
 											<string>04BDEF5E11C102AB00A6027B</string>
 											<string>0466892211C144A500B22479</string>
-											<string>046689F611C2D04000B22479</string>
+											<string>04668A1511C39E5D00B22479</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -661,6 +661,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>04668A1911C3A03F00B22479</string>
 		<string>0466891611C105C600B22479</string>
 		<string>0466891711C105C600B22479</string>
 		<string>/Users/jack/Code/music/Monomuch/Monomuch.xcodeproj</string>

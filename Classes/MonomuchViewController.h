@@ -34,8 +34,8 @@
 @property (nonatomic, retain) UITextField *listenPortTextField;
 @property (nonatomic, retain) UITextField *prefixTextField;
 @property (nonatomic, retain) UILabel *iPadAddressLabel;
-@property (nonatomic)	int gridWidth;
-@property (nonatomic)	int gridHeight;
+@property (nonatomic) int gridWidth;
+@property (nonatomic) int gridHeight;
 
 - (IBAction) buttonPressDown:(id)sender;
 - (IBAction) buttonPressUp:(id)sender;
