@@ -7,26 +7,27 @@
 //
 
 #import "MonomuchAppDelegate.h"
-#import "MonomuchViewController.h"
+#import "AppViewController.h"
 
 @implementation MonomuchAppDelegate
 
 @synthesize window;
-@synthesize viewController;
+@synthesize appViewController;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after app launch    
-    [window addSubview:viewController.view];
+    [window addSubview:appViewController.view];
     [window makeKeyAndVisible];
 
 	return YES;
 }
 
 
+
 - (void)dealloc {
-    [viewController release];
+    [appViewController release];
     [window release];
     [super dealloc];
 }

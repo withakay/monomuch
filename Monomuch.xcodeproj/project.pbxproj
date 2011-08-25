@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043426D911CC192900A6FE62 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043426D811CC192900A6FE62 /* SettingsViewController.xib */; };
+		0434273C11CCB2AE00A6FE62 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0434273B11CCB2AE00A6FE62 /* AppViewController.m */; };
+		0434278511CCC2FA00A6FE62 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 0434278411CCC2FA00A6FE62 /* gear.png */; };
 		0466895911C2667200B22479 /* BrushedMetal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0466895411C2667200B22479 /* BrushedMetal.png */; };
 		0466895A11C2667200B22479 /* BrushedMetalBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0466895511C2667200B22479 /* BrushedMetalBack.jpg */; };
 		0466895B11C2667200B22479 /* button_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 0466895611C2667200B22479 /* button_grid.png */; };
@@ -18,7 +21,6 @@
 		046689C911C2B44E00B22479 /* monomuch_walnut_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 046689C811C2B44E00B22479 /* monomuch_walnut_top.png */; };
 		046689F811C2D04A00B22479 /* connect_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 046689F711C2D04A00B22479 /* connect_button.png */; };
 		04668A2511C5442D00B22479 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04668A2311C5442D00B22479 /* SettingsViewController.m */; };
-		04668A2611C5442D00B22479 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04668A2411C5442D00B22479 /* SettingsViewController.xib */; };
 		04BDEE0D11C0F47600A6027B /* MonomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEE0C11C0F47600A6027B /* MonomeButton.m */; };
 		04BDEE3E11C0F6C800A6027B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BDEE3D11C0F6C800A6027B /* QuartzCore.framework */; };
 		04BDEEEF11C1005900A6027B /* OSCAddressSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEC211C1005900A6027B /* OSCAddressSpace.m */; };
@@ -52,6 +54,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043426D811CC192900A6FE62 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		0434273A11CCB2AE00A6FE62 /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		0434273B11CCB2AE00A6FE62 /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		0434278411CCC2FA00A6FE62 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
 		0466895411C2667200B22479 /* BrushedMetal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrushedMetal.png; sourceTree = "<group>"; };
 		0466895511C2667200B22479 /* BrushedMetalBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BrushedMetalBack.jpg; sourceTree = "<group>"; };
 		0466895611C2667200B22479 /* button_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_grid.png; sourceTree = "<group>"; };
@@ -64,7 +70,6 @@
 		046689F711C2D04A00B22479 /* connect_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect_button.png; sourceTree = "<group>"; };
 		04668A2211C5442D00B22479 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		04668A2311C5442D00B22479 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		04668A2411C5442D00B22479 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = Classes/SettingsViewController.xib; sourceTree = "<group>"; };
 		04BDEB3411BFBF6000A6027B /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = usr/lib/libicucore.A.dylib; sourceTree = SDKROOT; };
 		04BDEE0B11C0F47600A6027B /* MonomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonomeButton.h; sourceTree = "<group>"; };
 		04BDEE0C11C0F47600A6027B /* MonomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonomeButton.m; sourceTree = "<group>"; };
@@ -146,6 +151,7 @@
 		0466895311C2667100B22479 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				0434278411CCC2FA00A6FE62 /* gear.png */,
 				046689F711C2D04A00B22479 /* connect_button.png */,
 				046689C811C2B44E00B22479 /* monomuch_walnut_top.png */,
 				046689C411C2AA9200B22479 /* monome_walnut_top.png */,
@@ -246,6 +252,8 @@
 				28D7ACF70DDB3853001CB0EB /* MonomuchViewController.m */,
 				04668A2211C5442D00B22479 /* SettingsViewController.h */,
 				04668A2311C5442D00B22479 /* SettingsViewController.m */,
+				0434273A11CCB2AE00A6FE62 /* AppViewController.h */,
+				0434273B11CCB2AE00A6FE62 /* AppViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -286,7 +294,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				04668A2411C5442D00B22479 /* SettingsViewController.xib */,
+				043426D811CC192900A6FE62 /* SettingsViewController.xib */,
 				0466895311C2667100B22479 /* images */,
 				2899E5210DE3E06400AC0155 /* MonomuchViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -359,7 +367,8 @@
 				046689C511C2AA9200B22479 /* monome_walnut_top.png in Resources */,
 				046689C911C2B44E00B22479 /* monomuch_walnut_top.png in Resources */,
 				046689F811C2D04A00B22479 /* connect_button.png in Resources */,
-				04668A2611C5442D00B22479 /* SettingsViewController.xib in Resources */,
+				043426D911CC192900A6FE62 /* SettingsViewController.xib in Resources */,
+				0434278511CCC2FA00A6FE62 /* gear.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +404,7 @@
 				04BDEF0111C1005900A6027B /* VVStopwatch.m in Sources */,
 				04BDEF0211C1005900A6027B /* VVThreadLoop.m in Sources */,
 				04668A2511C5442D00B22479 /* SettingsViewController.m in Sources */,
+				0434273C11CCB2AE00A6FE62 /* AppViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

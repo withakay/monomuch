@@ -8,15 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@class MonomuchViewController;
+@class AppViewController;
 
 @interface MonomuchAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    MonomuchViewController *viewController;
+	AppViewController *appViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet MonomuchViewController *viewController;
+@property (nonatomic, retain) IBOutlet AppViewController *appViewController;
+
 
 @end
 
